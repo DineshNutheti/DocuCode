@@ -1,10 +1,10 @@
-# 🤖 DocuCode: QLoRA Fine-Tuned Code Comment Generator
+# DocuCode: QLoRA Fine-Tuned Code Comment Generator
 
 ## ✨ Overview
 
 DocuCode is a specialized Large Language Model (LLM) tailored for code documentation tasks. It leverages the strength of a Code LLM (like StarCoder or CodeLLaMA) and fine-tunes it efficiently using the **QLoRA (Quantized Low-Rank Adapters)** technique on a curated dataset of high-quality code and docstring pairs. This model is designed to adhere to internal code standards, significantly reducing documentation overhead and improving codebase maintainability.
 
-## 🚀 Key Features
+## Key Features
 
   * **Efficient Fine-Tuning (QLoRA):** Achieved production-level quality by fine-tuning a massive base model (e.g., CodeLLaMA-7B) using only commodity or Colab GPUs, minimizing training time and VRAM usage.
   * **Context-Aware Generation:** Model is trained to include context (imports, class definitions) when generating comments for a specific function, leading to semantically accurate documentation.
@@ -13,7 +13,7 @@ DocuCode is a specialized Large Language Model (LLM) tailored for code documenta
 
 -----
 
-## ⚙️ Technology Stack
+## Technology Stack
 
 | Component | Purpose | Details & Implementation |
 | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ DocuCode is a specialized Large Language Model (LLM) tailored for code documenta
 
 -----
 
-## 🧠 Implementation Details
+## Implementation Details
 
 ### 1\. Custom Dataset Creation
 
@@ -69,7 +69,7 @@ Model quality is verified through specialized metrics.
 
 -----
 
-## 🚀 Usage and Deployment
+## Usage and Deployment
 
 ### Installation
 
