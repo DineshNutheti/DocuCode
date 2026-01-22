@@ -1,0 +1,7 @@
+unsloth
+transformers
+datasets
+peft
+bitsandbytes
+fastapi
+uvicorn
